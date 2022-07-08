@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Signup</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"  crossorigin="anonymous">
+    <link rel="stylesheet" href="css/signup.css">
+  </head>
+  <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form action="/"  method="post">
+        <img class="md-4 logo-image" src="assets/log-in.png" >
+        <h1 class="h3 md-3 mt-3 fw-normal">Sign Up to Newsletter</h1>
+
+        <div class="form-floating">
+            <input name="fName" type="text" class="form-control top" placeholder="joe" required>
+            <label for="floatingFname">First Name</label>
+        
+        <div class="form-floating">
+            <input name="lName" type="text" class="form-control middle"  placeholder="lastname" required>
+            <label for="floatingLname">Last Name</label>
+        </div>
+        <div class="form-floating">
+            <input name="email" type="email" class="form-control bottom"  placeholder="exaple@gmail.com" required>
+            <label for="floatingInput">Email Address</label>
+        </div>
+       
+       
+
+        <button type="submit" class="w-100 btn btn-lg btn-primary">
+          Submit
+        </button>
+      </form>
+      <p class="mt-1 text-muted">&copy; Blue News</p>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

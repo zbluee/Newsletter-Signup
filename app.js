@@ -62,6 +62,6 @@ exp.post("/failure", (req, res)=>{
     res.redirect("/")
 })
 
-exp.listen(port || process.env.POST , ()=>{
+exp.listen(process.env.POST || port, ()=>{
     console.log(`The server is running on port ${port}`);
 })

@@ -2,4 +2,5 @@
 
 # Newsletter-Signup.
 
+# Sample
 !["Sample"](public/assets/sample.png)
